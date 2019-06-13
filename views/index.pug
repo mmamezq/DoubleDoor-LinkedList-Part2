@@ -1,0 +1,43 @@
+extends layout
+
+block content
+    h1= "Linked List"
+    p Hey there, friend! Hope you're doing well. My name is Monica Amezquita, and I have created this little Linked List API using Express.JS for you.
+    p With this app, you can easily create your very own linked list.
+
+    p
+    |Don't know what a Linked List is? Check out
+    |
+    a(href='https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html' , target = "_blank") this article
+    |
+    |for more information!
+
+    p.menu Check out the options below:
+    ol.menu
+        li Add Data
+        li Edit Data
+        li Remove Data
+        li Print Data
+
+
+    p Before proceeding, please click the following buttons to read program instructions and function documentation for further help!
+
+
+    button(onclick="addRules()") Add function
+    p#add
+
+    button(onclick="editRules()") Edit function
+    p#edit
+
+    button(onclick="removeRules()") Remove function
+    p#remove
+
+
+    button(onclick="printRules()") Print function
+    p#print
+
+    br
+    br
+    br
+    button(onclick="start()") Click here to start now!
+

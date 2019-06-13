@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  border: 5px solid #ffb6c1;
+  margin: 10px;
+}
+
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #c9ddff; /* Green */
+  color: white;
+  border-radius: 3px;
+}
+
+h1 {
+  color: lightpink;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
